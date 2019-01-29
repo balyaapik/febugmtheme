@@ -1,0 +1,116 @@
+.tpb-text .box-white h1,
+.tpb-html .box-white h1 {
+    font-size: 5.4em;
+}
+.tpb-text .box-container h2,
+.tpb-html .box-container h2 {
+    font-size: 4.2em;
+}
+.tpb-text .box-container h3,
+.tpb-html .box-container h3 {
+    font-size: 3.2em;
+}
+.tpb-text .box-container h4,
+.tpb-html .box-container h4 {
+    font-size: 2.2em;
+}
+.tpb-text .box-container h5,
+.tpb-html .box-container h5 {
+    font-size: 1.8em;
+}
+.tpb-text .box-container h6,
+.tpb-html .box-container h6 {
+    font-size: 1.2em;
+}
+article.page .post-content .tpb-text .box-container p,
+article.page .post-content .tpb-html .box-container p {
+    font-size: 1.3em;
+}
+.tpb.box-white,
+.tpb .box-white {
+    color: #fff;
+}
+.box-container {
+    padding: 60px;
+}
+@media only screen and (max-width: 767px){
+    .box-container {
+        padding: 30px;
+        font-size: 6px;
+    }
+    .tpb-text .box-container h1,
+    .tpb-html .box-container h1,
+    .tpb-text .box-container h2,
+    .tpb-html .box-container h2,
+    .tpb-text .box-container h3,
+    .tpb-html .box-container h3,
+    .tpb-text .box-container h4,
+    .tpb-html .box-container h4,
+    .tpb-text .box-container h5,
+    .tpb-html .box-container h5,
+    .tpb-text .box-container h6,
+    .tpb-html .box-container h6 {
+        line-height: 1.4;
+    }
+    article.page .post-content .tpb-text .box-container p,
+    article.page .post-content .tpb-html .box-container p {
+        line-height: 1.4;
+        font-size: 14px;
+    }
+    .tpb-text .box-container h4,
+    .tpb-html .box-container h4 {
+        font-size: 3em;
+    }
+    .tpb-text .box-container h5,
+    .tpb-html .box-container h5 {
+        font-size: 2.6em;
+    }
+    .tpb-text .box-container h6,
+    .tpb-html .box-container h6 {
+        font-size: 2em;
+    }
+}
+.tpb.box-default,
+.tpb .box-default {
+    color: #333;
+}
+.tpb.box-default p,
+.tpb .box-default p {
+    color: #888;
+}
+.tpb.box-container *,
+.tpb .box-container * {
+    margin: 0 0 5px;
+}
+.tpb.box-container h1,
+.tpb.box-container h2,
+.tpb.box-container h3
+.tpb .box-container h1,
+.tpb .box-container h2,
+.tpb .box-container h3 {
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 767px){
+    .tpb.box-container h1,
+    .tpb.box-container h2,
+    .tpb.box-container h3
+    .tpb .box-container h1,
+    .tpb .box-container h2,
+    .tpb .box-container h3 {
+        margin-bottom: 15px;
+    }
+}
+.tpb .blockquote {
+    border-left: none;
+    padding: 0 75px;
+    margin: 30px;
+}
+.tpb.tpb-html .blockquote h3 {
+    font-style: italic;font-size: 36px;margin-bottom: 10px;
+}
+.tpb.tpb-html .blockquote .blockquote-notes {
+    font-style: italic;font-size: 1.6em;line-height: 1.2; margin-bottom: 0;
+}
+.tpb.tpb-html .blockquote .blockquote-user {
+    font-style: italic;font-weight:700;font-size: 1.7em;
+}
